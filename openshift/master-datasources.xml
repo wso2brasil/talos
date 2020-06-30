@@ -14,7 +14,7 @@
             </jndiConfig>
             <definition type="RDBMS">
                 <configuration>
-                    <url>jdbc:mysql://localhost:33006/wso2joao?useSSL=false</url>
+                    <url>jdbc:mysql://DATABASE_CLUSTER_IP:3306/DATABASE_NAME?useSSL=false</url>
                     <username>wso2</username>
                     <password>wso21234</password>
                     <driverClassName>com.mysql.jdbc.Driver</driverClassName>
@@ -35,7 +35,7 @@
             </jndiConfig>
             <definition type="RDBMS">
                 <configuration>
-                    <url>jdbc:mysql://localhost:33006/wso2joao?useSSL=false</url>
+                    <url>jdbc:mysql://DATABASE_CLUSTER_IP:3306/DATABASE_NAME?useSSL=false</url>
                     <username>wso2</username>
                     <password>wso21234</password>
                     <driverClassName>com.mysql.jdbc.Driver</driverClassName>
