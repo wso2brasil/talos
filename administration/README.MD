@@ -17,7 +17,7 @@ wso2is-as-km-deployment.xml
 ### 3 - Ejecutar los siguientes comandos:
 ```
 oc create configmap master-datasource-%%NOMBRE-PARTICIPANTE%% --from-file=master-datasources.xml
-oc apply -f wso2is-as-km-deployment.xml
+oc apply -f wso2is-as-km-deployment.yaml
 ```
 
 ### 4 - Probar su despliegue utilizando port forwarding
