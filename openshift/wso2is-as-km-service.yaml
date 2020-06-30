@@ -15,28 +15,28 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: wso2is-%%NOMBRE-PARTICIPANTE%%-service
+  name: wso2is-carlos-service
 spec:
   # label keys and values that must match in order to receive traffic for this service
   selector:
-    deploymentconfig: wso2is-%%NOMBRE-PARTICIPANTE%%
+    deploymentconfig: wso2is-carlos
   sessionAffinity: ClientIP
   ports:
     # ports that this service should serve on
     -
       name: servlet-http
       protocol: TCP
-      port: 9763
+      port: 9764
       targetPort: 9763
     -
       name: servlet-https
       protocol: TCP
-      port: 9443
+      port: 9444
       targetPort: 9443
     -
       name: embbeded-ldap
       protocol: TCP
-      port: 10389
+      port: 10390
       targetPort: 10389
-  type: LoadBalancer
+  type: NodePort
 

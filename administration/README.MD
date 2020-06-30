@@ -1,5 +1,15 @@
 ## LOG ROTATION
 https://medium.com/@pamodaaw/customizing-wso2-log-files-a338139620fe
+### DÍA 1
+### 1 - Crear las tablas
+```
+oc get pods 
+oc rsh mariadb-101-rhel7-1-gwhg2
+mysql -u root -h mariadb-101-rhel7-1-gwhg2 -p
+use <database_name>;
+source /tmp/mysql5.7.sql
+source /tmp/apimgt-mysql5.7.sql
+```
 
 ## DÍA 2
 ### 1 -Por favor, hacer un comentario en este ticket con su cuenta de WSO2
