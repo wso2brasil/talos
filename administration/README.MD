@@ -1,15 +1,7 @@
-## LOG ROTATION
-https://medium.com/@pamodaaw/customizing-wso2-log-files-a338139620fe
-### DÍA 1
-### 1 - Crear las tablas
-```
-oc get pods 
-oc rsh mariadb-101-rhel7-1-gwhg2
-mysql -u root -h mariadb-101-rhel7-1-gwhg2 -p
-use <database_name>;
-source /tmp/mysql5.7.sql
-source /tmp/apimgt-mysql5.7.sql
-```
+## DÍA 3
+### 1 - Descargar el WSO2 Integration Studio
+https://wso2.com/integration/integration-studio/
+
 
 ## DÍA 2
 ### 1 -Por favor, hacer un comentario en este ticket con su cuenta de WSO2
@@ -37,3 +29,18 @@ oc port-forward %%POD NAME%% 9443:9443
 ```
 https://localhost:9443/carbon
 admin / admin
+
+## DÍA 1
+
+### LOG ROTATION
+https://medium.com/@pamodaaw/customizing-wso2-log-files-a338139620fe
+
+### 1 - Crear las tablas
+```
+oc get pods 
+oc rsh mariadb-101-rhel7-1-gwhg2
+mysql -u root -h mariadb-101-rhel7-1-gwhg2 -p
+use <database_name>;
+source /tmp/mysql5.7.sql
+source /tmp/apimgt-mysql5.7.sql
+```
