@@ -2,6 +2,21 @@
 ### 1 - Descargar el WSO2 Integration Studio
 https://wso2.com/integration/integration-studio/
 
+```
+oc create configmap application-authentication --from-file=application-authentication.xml
+```
+
+### 2 - Descargar el repositorio git para ejecutar las aplicaciones tomcat
+. Crear dos Service Providers (pickup dispatch y pickup )
+. Inboud Authentication Configuration
+> 
+. Editar tomcat/webapps/pickup-manager/WEB-INF/classes/manager.properties
+. Editar tomcat/webapps/pickup-dispatch/WEB-INF/classes/dispatch.properties
+. Iniciar el Tomcat 
+```
+catalina.sh run (linux / mac)
+catalina.bat run (windows)
+```
 
 ## DÍA 2
 ### 1 -Por favor, hacer un comentario en este ticket con su cuenta de WSO2
