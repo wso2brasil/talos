@@ -1,0 +1,256 @@
+12-Jun-2020 11:27:30.800 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor:   Apache Tomcat/8.5.55
+
+12-Jun-2020 11:27:30.803 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 22:10:54 UTC
+12-Jun-2020 11:27:30.803 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:         8.5.55.0
+12-Jun-2020 11:27:30.804 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+12-Jun-2020 11:27:30.804 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.14.6
+
+12-Jun-2020 11:27:30.804 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:          x86_64
+
+12-Jun-2020 11:27:30.805 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+12-Jun-2020 11:27:30.805 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+12-Jun-2020 11:27:30.805 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:     Oracle Corporation
+12-Jun-2020 11:27:30.805 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55
+12-Jun-2020 11:27:30.805 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55
+12-Jun-2020 11:27:30.808 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/conf/logging.properties
+12-Jun-2020 11:27:30.808 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Jun-2020 11:27:30.808 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Jun-2020 11:27:30.808 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Jun-2020 11:27:30.808 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+12-Jun-2020 11:27:30.809 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+12-Jun-2020 11:27:30.828 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55
+12-Jun-2020 11:27:30.828 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55
+12-Jun-2020 11:27:30.828 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/temp
+12-Jun-2020 11:27:30.829 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/joaoemilio/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+12-Jun-2020 11:27:30.997 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+12-Jun-2020 11:27:31.055 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+12-Jun-2020 11:27:31.084 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 805 ms
+12-Jun-2020 11:27:31.123 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+12-Jun-2020 11:27:31.124 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+12-Jun-2020 11:27:31.150 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-manager.war] de la aplicación web
+12-Jun-2020 11:27:32.632 INFORMACIÓN [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+12-Jun-2020 11:27:32.641 INFORMACIÓN [localhost-startStop-1] org.wso2.sample.identity.jks.JKSLoader.contextInitialized Setting trust store path to : /Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-manager/WEB-INF/classes/wso2carbon.jks
+12-Jun-2020 11:27:33.614 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-manager.war] has finished in [2.463] ms
+12-Jun-2020 11:27:33.616 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-dispatch.war] de la aplicación web
+12-Jun-2020 11:27:34.513 INFORMACIÓN [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+12-Jun-2020 11:27:34.519 INFORMACIÓN [localhost-startStop-1] org.wso2.sample.identity.jks.JKSLoader.contextInitialized Setting trust store path to : /Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-dispatch/WEB-INF/classes/wso2carbon.jks
+12-Jun-2020 11:27:34.849 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-dispatch.war] has finished in [1.233] ms
+12-Jun-2020 11:27:34.850 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/docs] de la aplicación web
+12-Jun-2020 11:27:34.868 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/docs] has finished in [18] ms
+12-Jun-2020 11:27:34.870 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/manager] de la aplicación web
+12-Jun-2020 11:27:34.929 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/manager] has finished in [58] ms
+12-Jun-2020 11:27:34.929 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/examples] de la aplicación web
+12-Jun-2020 11:27:36.139 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/examples] has finished in [1.210] ms
+12-Jun-2020 11:27:36.140 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/ROOT] de la aplicación web
+12-Jun-2020 11:27:36.239 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/ROOT] has finished in [100] ms
+12-Jun-2020 11:27:36.240 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/host-manager] de la aplicación web
+12-Jun-2020 11:27:36.281 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/host-manager] has finished in [40] ms
+12-Jun-2020 11:27:36.286 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Jun-2020 11:27:36.297 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 5212 ms
+12-Jun-2020 11:30:36.525 INFORMACIÓN [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Jun-2020 11:30:36.533 INFORMACIÓN [Thread-4] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+12-Jun-2020 11:30:36.607 INFORMACIÓN [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Jun-2020 11:30:36.611 INFORMACIÓN [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+12-Jun-2020 11:30:38.368 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor:   Apache Tomcat/8.5.55
+
+12-Jun-2020 11:30:38.370 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 22:10:54 UTC
+12-Jun-2020 11:30:38.370 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:         8.5.55.0
+12-Jun-2020 11:30:38.371 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+12-Jun-2020 11:30:38.371 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.14.6
+
+12-Jun-2020 11:30:38.371 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:          x86_64
+
+12-Jun-2020 11:30:38.371 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+12-Jun-2020 11:30:38.371 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+12-Jun-2020 11:30:38.371 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:     Oracle Corporation
+12-Jun-2020 11:30:38.371 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55
+12-Jun-2020 11:30:38.371 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55
+12-Jun-2020 11:30:38.372 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/conf/logging.properties
+12-Jun-2020 11:30:38.373 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Jun-2020 11:30:38.373 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Jun-2020 11:30:38.373 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Jun-2020 11:30:38.373 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+12-Jun-2020 11:30:38.373 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+12-Jun-2020 11:30:38.385 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55
+12-Jun-2020 11:30:38.385 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55
+12-Jun-2020 11:30:38.386 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/temp
+12-Jun-2020 11:30:38.386 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/joaoemilio/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+12-Jun-2020 11:30:38.557 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+12-Jun-2020 11:30:38.591 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+12-Jun-2020 11:30:38.657 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 872 ms
+12-Jun-2020 11:30:38.776 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+12-Jun-2020 11:30:38.777 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+12-Jun-2020 11:30:38.805 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-manager.war] de la aplicación web
+12-Jun-2020 11:30:40.621 INFORMACIÓN [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+12-Jun-2020 11:30:40.625 INFORMACIÓN [localhost-startStop-1] org.wso2.sample.identity.jks.JKSLoader.contextInitialized Setting trust store path to : /Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-manager/WEB-INF/classes/wso2carbon.jks
+12-Jun-2020 11:30:41.338 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-manager.war] has finished in [2.533] ms
+12-Jun-2020 11:30:41.339 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-dispatch.war] de la aplicación web
+12-Jun-2020 11:30:42.220 INFORMACIÓN [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+12-Jun-2020 11:30:42.223 INFORMACIÓN [localhost-startStop-1] org.wso2.sample.identity.jks.JKSLoader.contextInitialized Setting trust store path to : /Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-dispatch/WEB-INF/classes/wso2carbon.jks
+12-Jun-2020 11:30:42.454 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-dispatch.war] has finished in [1.115] ms
+12-Jun-2020 11:30:42.455 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/docs] de la aplicación web
+12-Jun-2020 11:30:42.469 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/docs] has finished in [14] ms
+12-Jun-2020 11:30:42.469 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/manager] de la aplicación web
+12-Jun-2020 11:30:42.504 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/manager] has finished in [35] ms
+12-Jun-2020 11:30:42.505 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/examples] de la aplicación web
+12-Jun-2020 11:30:42.857 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/examples] has finished in [352] ms
+12-Jun-2020 11:30:42.857 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/ROOT] de la aplicación web
+12-Jun-2020 11:30:42.877 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/ROOT] has finished in [20] ms
+12-Jun-2020 11:30:42.878 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/host-manager] de la aplicación web
+12-Jun-2020 11:30:42.960 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/host-manager] has finished in [82] ms
+12-Jun-2020 11:30:42.965 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Jun-2020 11:30:42.974 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 4316 ms
+12-Jun-2020 14:22:36.809 INFORMACIÓN [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Jun-2020 14:22:36.836 INFORMACIÓN [Thread-4] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+12-Jun-2020 14:22:37.242 INFORMACIÓN [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Jun-2020 14:22:37.272 INFORMACIÓN [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+12-Jun-2020 14:23:32.848 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor:   Apache Tomcat/8.5.55
+
+12-Jun-2020 14:23:32.991 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 22:10:54 UTC
+12-Jun-2020 14:23:32.991 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:         8.5.55.0
+12-Jun-2020 14:23:32.991 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+12-Jun-2020 14:23:32.991 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.14.6
+
+12-Jun-2020 14:23:32.992 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:          x86_64
+
+12-Jun-2020 14:23:32.992 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+12-Jun-2020 14:23:32.992 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+12-Jun-2020 14:23:32.992 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:     Oracle Corporation
+12-Jun-2020 14:23:32.992 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55
+12-Jun-2020 14:23:32.993 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55
+12-Jun-2020 14:23:32.994 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/conf/logging.properties
+12-Jun-2020 14:23:32.994 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Jun-2020 14:23:32.994 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Jun-2020 14:23:32.994 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Jun-2020 14:23:32.994 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+12-Jun-2020 14:23:32.995 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+12-Jun-2020 14:23:33.001 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55
+12-Jun-2020 14:23:33.002 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55
+12-Jun-2020 14:23:33.021 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/temp
+12-Jun-2020 14:23:33.021 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/joaoemilio/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+12-Jun-2020 14:23:33.282 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+12-Jun-2020 14:23:33.348 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+12-Jun-2020 14:23:33.397 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1332 ms
+12-Jun-2020 14:23:33.475 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+12-Jun-2020 14:23:33.476 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+12-Jun-2020 14:23:33.773 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-manager.war] de la aplicación web
+12-Jun-2020 14:23:35.715 INFORMACIÓN [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+12-Jun-2020 14:23:35.751 INFORMACIÓN [localhost-startStop-1] org.wso2.sample.identity.jks.JKSLoader.contextInitialized Setting trust store path to : /Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-manager/WEB-INF/classes/wso2carbon.jks
+12-Jun-2020 14:23:36.815 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-manager.war] has finished in [3.041] ms
+12-Jun-2020 14:23:36.924 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-dispatch.war] de la aplicación web
+12-Jun-2020 14:23:38.654 INFORMACIÓN [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+12-Jun-2020 14:23:38.659 INFORMACIÓN [localhost-startStop-1] org.wso2.sample.identity.jks.JKSLoader.contextInitialized Setting trust store path to : /Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-dispatch/WEB-INF/classes/wso2carbon.jks
+12-Jun-2020 14:23:38.982 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-dispatch.war] has finished in [2.059] ms
+12-Jun-2020 14:23:38.983 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/docs] de la aplicación web
+12-Jun-2020 14:23:39.061 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/docs] has finished in [78] ms
+12-Jun-2020 14:23:39.062 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/manager] de la aplicación web
+12-Jun-2020 14:23:39.247 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/manager] has finished in [185] ms
+12-Jun-2020 14:23:39.248 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/examples] de la aplicación web
+12-Jun-2020 14:23:41.614 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/examples] has finished in [2.364] ms
+12-Jun-2020 14:23:41.614 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/ROOT] de la aplicación web
+12-Jun-2020 14:23:41.677 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/ROOT] has finished in [63] ms
+12-Jun-2020 14:23:41.677 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/host-manager] de la aplicación web
+12-Jun-2020 14:23:42.025 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/host-manager] has finished in [347] ms
+12-Jun-2020 14:23:42.032 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Jun-2020 14:23:42.048 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 8651 ms
+12-Jun-2020 14:24:13.500 GRAVE [http-nio-8080-exec-1] org.wso2.sample.identity.oauth2.ManagerClientServlet.responseHandler Something went wrong
+	OAuthProblemException{error='invalid_grant', description='Invalid authorization code received from token request', uri='null', state='null', scope='null', redirectUri='null', responseStatus=0, parameters={}}
+		at org.apache.oltu.oauth2.common.exception.OAuthProblemException.error(OAuthProblemException.java:59)
+		at org.apache.oltu.oauth2.client.validator.OAuthClientValidator.validateErrorResponse(OAuthClientValidator.java:63)
+		at org.apache.oltu.oauth2.client.validator.OAuthClientValidator.validate(OAuthClientValidator.java:48)
+		at org.apache.oltu.oauth2.client.response.OAuthClientResponse.validate(OAuthClientResponse.java:64)
+		at org.apache.oltu.oauth2.client.response.OAuthClientResponse.init(OAuthClientResponse.java:59)
+		at org.apache.oltu.oauth2.client.response.OAuthAccessTokenResponse.init(OAuthAccessTokenResponse.java:52)
+		at org.apache.oltu.oauth2.client.response.OAuthClientResponseFactory.createCustomResponse(OAuthClientResponseFactory.java:60)
+		at org.apache.oltu.oauth2.client.URLConnectionClient.execute(URLConnectionClient.java:111)
+		at org.apache.oltu.oauth2.client.OAuthClient.accessToken(OAuthClient.java:65)
+		at org.apache.oltu.oauth2.client.OAuthClient.accessToken(OAuthClient.java:55)
+		at org.apache.oltu.oauth2.client.OAuthClient.accessToken(OAuthClient.java:71)
+		at org.wso2.sample.identity.oauth2.CommonUtils.getToken(CommonUtils.java:125)
+		at org.wso2.sample.identity.oauth2.ManagerClientServlet.responseHandler(ManagerClientServlet.java:80)
+		at org.wso2.sample.identity.oauth2.ManagerClientServlet.doGet(ManagerClientServlet.java:43)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:615)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1627)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+12-Jun-2020 14:25:57.449 INFORMACIÓN [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Jun-2020 14:25:57.458 INFORMACIÓN [Thread-4] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+12-Jun-2020 14:25:57.523 INFORMACIÓN [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Jun-2020 14:25:57.527 INFORMACIÓN [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+12-Jun-2020 14:26:00.091 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor:   Apache Tomcat/8.5.55
+
+12-Jun-2020 14:26:00.095 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 22:10:54 UTC
+12-Jun-2020 14:26:00.096 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:         8.5.55.0
+12-Jun-2020 14:26:00.096 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+12-Jun-2020 14:26:00.097 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.14.6
+
+12-Jun-2020 14:26:00.097 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:          x86_64
+
+12-Jun-2020 14:26:00.097 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+12-Jun-2020 14:26:00.097 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+12-Jun-2020 14:26:00.097 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:     Oracle Corporation
+12-Jun-2020 14:26:00.097 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55
+12-Jun-2020 14:26:00.097 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55
+12-Jun-2020 14:26:00.099 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/conf/logging.properties
+12-Jun-2020 14:26:00.099 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Jun-2020 14:26:00.100 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Jun-2020 14:26:00.101 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Jun-2020 14:26:00.101 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+12-Jun-2020 14:26:00.104 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+12-Jun-2020 14:26:00.104 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55
+12-Jun-2020 14:26:00.104 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55
+12-Jun-2020 14:26:00.104 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/temp
+12-Jun-2020 14:26:00.105 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/joaoemilio/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+12-Jun-2020 14:26:00.436 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+12-Jun-2020 14:26:00.476 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+12-Jun-2020 14:26:00.504 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1160 ms
+12-Jun-2020 14:26:00.554 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+12-Jun-2020 14:26:00.555 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+12-Jun-2020 14:26:00.578 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-manager.war] de la aplicación web
+12-Jun-2020 14:26:02.740 INFORMACIÓN [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+12-Jun-2020 14:26:02.745 INFORMACIÓN [localhost-startStop-1] org.wso2.sample.identity.jks.JKSLoader.contextInitialized Setting trust store path to : /Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-manager/WEB-INF/classes/wso2carbon.jks
+12-Jun-2020 14:26:03.740 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-manager.war] has finished in [3.161] ms
+12-Jun-2020 14:26:03.741 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-dispatch.war] de la aplicación web
+12-Jun-2020 14:26:05.259 INFORMACIÓN [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+12-Jun-2020 14:26:05.261 INFORMACIÓN [localhost-startStop-1] org.wso2.sample.identity.jks.JKSLoader.contextInitialized Setting trust store path to : /Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-dispatch/WEB-INF/classes/wso2carbon.jks
+12-Jun-2020 14:26:05.586 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/pickup-dispatch.war] has finished in [1.845] ms
+12-Jun-2020 14:26:05.587 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/docs] de la aplicación web
+12-Jun-2020 14:26:05.631 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/docs] has finished in [43] ms
+12-Jun-2020 14:26:05.631 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/manager] de la aplicación web
+12-Jun-2020 14:26:05.745 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/manager] has finished in [114] ms
+12-Jun-2020 14:26:05.745 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/examples] de la aplicación web
+12-Jun-2020 14:26:06.246 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/examples] has finished in [501] ms
+12-Jun-2020 14:26:06.247 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/ROOT] de la aplicación web
+12-Jun-2020 14:26:06.277 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/ROOT] has finished in [30] ms
+12-Jun-2020 14:26:06.278 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/host-manager] de la aplicación web
+12-Jun-2020 14:26:06.398 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/joaoemilio/wso2/renner/apache-tomcat-8.5.55/webapps/host-manager] has finished in [120] ms
+12-Jun-2020 14:26:06.405 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Jun-2020 14:26:06.415 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 5911 ms
+12-Jun-2020 21:56:44.891 INFORMACIÓN [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Jun-2020 21:56:44.915 INFORMACIÓN [Thread-4] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+12-Jun-2020 21:56:45.034 INFORMACIÓN [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Jun-2020 21:56:45.043 INFORMACIÓN [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
