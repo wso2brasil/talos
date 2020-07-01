@@ -2,17 +2,8 @@
 ### 1 - Descargar el WSO2 Integration Studio
 https://wso2.com/integration/integration-studio/
 
-### 2 - Descargar el proyecto 
-```
-https://github.com/wso2brasil/talos
-
-. Crear 
-```
-```
-oc create configmap application-authentication --from-file=application-authentication.xml
-```
-
 ### 2 - Descargar el repositorio git para ejecutar las aplicaciones tomcat
+
 . Crear dos Service Providers (pickup-dispatch y pickup-manager )
 . Inboud Authentication Configuration -> OAuth/OpenID -> Configure
 . Guardar los Consumer Key y Secret de los dos Service Providers
@@ -24,6 +15,17 @@ oc create configmap application-authentication --from-file=application-authentic
 catalina.sh run (linux / mac)
 catalina.bat run (windows)
 ```
+Para poder configurar TOTP es necesario cambiar su deployment para incorporar este nuevo configmap
+```
+oc create configmap application-authentication --from-file=application-authentication.xml
+```
+Cambie también el archivo wso2is-as-km-deployment-totp.yaml con su nombre donde está escrito "joao"
+```
+ej: 
+metadata:
+  name: wso2is-joao
+```
+
 
 ## DÍA 2
 ### 1 -Por favor, hacer un comentario en este ticket con su cuenta de WSO2
