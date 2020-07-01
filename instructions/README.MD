@@ -24,6 +24,10 @@ ej:
 metadata:
   name: wso2is-joao
 ```
+Actualize su deployment 
+```
+oc apply -f wso2is-as-km-deployment-totp.yaml
+```
 
 
 ## DÍA 2
