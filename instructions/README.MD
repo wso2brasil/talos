@@ -4,13 +4,12 @@ https://wso2.com/integration/integration-studio/
 
 ### 2 - Descargar el repositorio git para ejecutar las aplicaciones tomcat
 
-. Crear dos Service Providers (pickup-dispatch y pickup-manager )
-. Inboud Authentication Configuration -> OAuth/OpenID -> Configure
-. Guardar los Consumer Key y Secret de los dos Service Providers
-> 
-. Editar tomcat/webapps/pickup-manager/WEB-INF/classes/manager.properties
-. Editar tomcat/webapps/pickup-dispatch/WEB-INF/classes/dispatch.properties
-. Iniciar el Tomcat 
+- Crear dos Service Providers (pickup-dispatch y pickup-manager )
+- Inboud Authentication Configuration -> OAuth/OpenID -> Configure
+- Guardar los Consumer Key y Secret de los dos Service Providers 
+- Editar tomcat/webapps/pickup-manager/WEB-INF/classes/manager.properties
+- Editar tomcat/webapps/pickup-dispatch/WEB-INF/classes/dispatch.properties
+- Iniciar el Tomcat 
 ```
 catalina.sh run (linux / mac)
 catalina.bat run (windows)
