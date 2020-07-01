@@ -15,11 +15,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: wso2is-carlos-service
+  name: wso2is-david-service
 spec:
   # label keys and values that must match in order to receive traffic for this service
   selector:
-    deploymentconfig: wso2is-carlos
+    deploymentconfig: wso2is-david
   sessionAffinity: ClientIP
   ports:
     # ports that this service should serve on

@@ -2,13 +2,20 @@
 ### 1 - Descargar el WSO2 Integration Studio
 https://wso2.com/integration/integration-studio/
 
+### 2 - Descargar el proyecto 
+```
+https://github.com/wso2brasil/talos
+
+. Crear 
+```
 ```
 oc create configmap application-authentication --from-file=application-authentication.xml
 ```
 
 ### 2 - Descargar el repositorio git para ejecutar las aplicaciones tomcat
-. Crear dos Service Providers (pickup dispatch y pickup )
-. Inboud Authentication Configuration
+. Crear dos Service Providers (pickup-dispatch y pickup-manager )
+. Inboud Authentication Configuration -> OAuth/OpenID -> Configure
+. Guardar los Consumer Key y Secret de los dos Service Providers
 > 
 . Editar tomcat/webapps/pickup-manager/WEB-INF/classes/manager.properties
 . Editar tomcat/webapps/pickup-dispatch/WEB-INF/classes/dispatch.properties
